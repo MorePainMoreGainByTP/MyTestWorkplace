@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="G:\android_studio_2.2.1\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/auxiliaryteachingapp" />
+            <option value="$PROJECT_DIR$/drawbitmapmeshtest" />
+            <option value="$PROJECT_DIR$/frameanimationtest" />
+            <option value="$PROJECT_DIR$/getcontactsinfofromsystem" />
+            <option value="$PROJECT_DIR$/matrixtest" />
+            <option value="$PROJECT_DIR$/mediaplayertest" />
+            <option value="$PROJECT_DIR$/myapplicationtest" />
+            <option value="$PROJECT_DIR$/tablegametest" />
+            <option value="$PROJECT_DIR$/xmlparsertest" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

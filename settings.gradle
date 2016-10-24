@@ -1,0 +1,1 @@
+include ':app', ':tablegametest', ':matrixtest', ':drawbitmapmeshtest', ':frameanimationtest', ':xmlparsertest', ':myapplicationtest', ':mediaplayertest', ':auxiliaryteachingapp', ':getcontactsinfofromsystem'

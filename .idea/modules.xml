@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyTestWorkplace.iml" filepath="$PROJECT_DIR$/MyTestWorkplace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auxiliaryteachingapp/auxiliaryteachingapp.iml" filepath="$PROJECT_DIR$/auxiliaryteachingapp/auxiliaryteachingapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawbitmapmeshtest/drawbitmapmeshtest.iml" filepath="$PROJECT_DIR$/drawbitmapmeshtest/drawbitmapmeshtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frameanimationtest/frameanimationtest.iml" filepath="$PROJECT_DIR$/frameanimationtest/frameanimationtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getcontactsinfofromsystem/getcontactsinfofromsystem.iml" filepath="$PROJECT_DIR$/getcontactsinfofromsystem/getcontactsinfofromsystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matrixtest/matrixtest.iml" filepath="$PROJECT_DIR$/matrixtest/matrixtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediaplayertest/mediaplayertest.iml" filepath="$PROJECT_DIR$/mediaplayertest/mediaplayertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplicationtest/myapplicationtest.iml" filepath="$PROJECT_DIR$/myapplicationtest/myapplicationtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tablegametest/tablegametest.iml" filepath="$PROJECT_DIR$/tablegametest/tablegametest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xmlparsertest/xmlparsertest.iml" filepath="$PROJECT_DIR$/xmlparsertest/xmlparsertest.iml" />
+    </modules>
+  </component>
+</project>

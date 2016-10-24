@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FrameAnimationTest</string>
+    <string-array name="test_text">
+        <item>疯狂</item>
+        <item>java</item>
+        <item>android</item>
+        <item>xml意想不到</item>
+        <item>android studio</item>
+        <item>面向对象</item>
+        <item>系统分析与设计</item>
+        <item>操作系统</item>
+    </string-array>
+</resources>

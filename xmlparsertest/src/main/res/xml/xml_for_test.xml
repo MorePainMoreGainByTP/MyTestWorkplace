@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books xmlns:android="http://schemas.android.com/apk/res/android">
+    <book price = "123.10" name = "晚年毛泽东">讲述毛泽</book>
+    <book price = "143.00" name = "少年周恩来">讲述恩来</book>
+    <book price = "93.00" name = "青年邓小平">讲述小平</book>
+</books>
