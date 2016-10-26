@@ -1,14 +1,24 @@
 package com.example.tp.auxiliaryteachingapp;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+
+import com.example.tp.myviews.SlidingViewBySelf;
 
 public class MainActivity extends AppCompatActivity {
-
+    private SlidingViewBySelf slidingMenu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println("马丹，终于弄好了！！！");
+        slidingMenu = (SlidingViewBySelf)findViewById(R.id.activity_main);
+
     }
+
+    public void onClick(View v)
+    {
+        slidingMenu.toggle();
+    }
+
 }
