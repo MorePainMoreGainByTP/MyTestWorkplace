@@ -2,6 +2,7 @@ package com.example.tp.myviews;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.MotionEvent;
@@ -27,6 +28,36 @@ public class SlidingViewBySelf extends HorizontalScrollView {
     private boolean isOpen;
 
     private boolean once;
+
+//    @Override
+//    public boolean onInterceptTouchEvent(MotionEvent ev) {
+//        boolean isIntercept = false;
+//        int action = ev.getAction();
+//        switch (action){
+//            case MotionEvent.ACTION_DOWN:
+//                isIntercept = false;//点击事件分发给子控件
+//                break;
+//            case MotionEvent.ACTION_MOVE:
+//                if(isParentIntercept(ev)){//父容器拦截
+//                    isIntercept = true;
+//                }else {//点击事件分发给子控件
+//                    isIntercept = false;
+//                }
+//                break;
+//            case MotionEvent.ACTION_UP:
+//                isIntercept = false;//点击事件分发给子控件
+//                break;
+//        }
+//        return isIntercept;
+//    }
+//
+    private boolean isParentIntercept(MotionEvent ev){
+        Rect rect = new Rect();
+        SlidingViewBySelf.this.getGlobalVisibleRect(rect);
+        if(rect.contains((int) ev.getX(),(int) ev.getY()))
+            return true;
+        else return false;
+    }
 
     public SlidingViewBySelf(Context context) {
         this(context, null, 0);
@@ -153,4 +184,5 @@ public class SlidingViewBySelf extends HorizontalScrollView {
             openMenu();
         }
     }
+
 }

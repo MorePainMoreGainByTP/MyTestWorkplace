@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">AuxiliaryTeachingApp</string>
+    <string name="login_register">登录/注册</string>
+    <string name="my_classes">我的课程</string>
+    <string name="my_downloads">我的下载</string>
+    <string name="info_center">消息中心</string>
+    <string name="my_wrong_libs">我的错题</string>
+    <string name="setting">设置</string>
+    <string name="basic_sciences">基础科学</string>
+    <string name="finance_law">经管法学</string>
+    <string name="literature_arts">文学艺术</string>
+    <string name="engineering_technology">工程技术</string>
+    <string name="agriculture_medical">农林医药</string>
+    <string name="philosophy_history">哲学历史</string>
+    <string name="hint_user">账号/学号</string>
+    <string name="hint_pass">密码</string>
+    <string name="button_login">登录</string>
+    <string name="button_register">注册</string>
+    <string name="forget_pass">忘记密码？</string>
+    <string name="register_now">现在注册</string>
 </resources>

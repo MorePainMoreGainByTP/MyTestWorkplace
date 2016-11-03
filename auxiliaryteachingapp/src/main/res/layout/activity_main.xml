@@ -2,6 +2,7 @@
 <com.example.tp.myviews.SlidingViewBySelf xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
     xmlns:tp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:scrollbars="none"
     tp:rightPadding="100dp"
@@ -16,12 +17,33 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="点击切换"
-                android:onClick="click"/>
+            android:orientation="vertical"
+            android:focusable="false"
+            >
+            <com.bigkoo.convenientbanner.ConvenientBanner
+                android:focusable="false"
+                android:id="@+id/convenientBanner"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:canLoop="true">
+
+            </com.bigkoo.convenientbanner.ConvenientBanner>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <include layout="@layout/layout_mclasses_categories">
+
+                    </include>
+                    <ListView
+                        android:id="@+id/listView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+            </ScrollView>
         </LinearLayout>
     </LinearLayout>
 </com.example.tp.myviews.SlidingViewBySelf>

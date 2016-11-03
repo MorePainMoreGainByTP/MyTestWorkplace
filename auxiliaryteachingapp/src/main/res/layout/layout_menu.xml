@@ -2,74 +2,89 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg" >
+    android:background="@color/colorPrimary">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:orientation="vertical" >
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
 
             <ImageView
                 android:id="@+id/one"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/img_1" />
+                android:clickable="true"
+                android:onClick="loginRegister"
+                android:src="@mipmap/user_head" />
 
             <TextView
+                android:id="@+id/login_register"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@id/one"
-                android:text="第1个Item"
+                android:clickable="true"
+                android:onClick="loginRegister"
+                android:text="@string/login_register"
                 android:textColor="#f0f0f0"
-                android:textSize="20sp" />
+                android:textSize="15sp" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
 
             <ImageView
                 android:id="@+id/two"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/img_2" />
+                android:clickable="true"
+                android:onClick="myClasses"
+                android:src="@mipmap/my_classes" />
 
             <TextView
+                android:id="@+id/my_classes"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@id/two"
-                android:text="第2个Item"
+                android:clickable="true"
+                android:onClick="myClasses"
+                android:text="@string/my_classes"
                 android:textColor="#f0f0f0"
-                android:textSize="20sp" />
+                android:textSize="15sp" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
 
             <ImageView
                 android:id="@+id/three"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/img_3" />
+                android:clickable="true"
+                android:onClick="myDownloads"
+                android:src="@mipmap/my_download" />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -77,23 +92,28 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@id/three"
-                android:text="第3个Item"
+                android:clickable="true"
+                android:onClick="myDownloads"
+                android:text="@string/my_downloads"
                 android:textColor="#f0f0f0"
-                android:textSize="20sp" />
+                android:textSize="15sp" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
 
             <ImageView
                 android:id="@+id/four"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/img_4" />
+                android:clickable="true"
+                android:onClick="infoCenter"
+                android:src="@mipmap/info_center" />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -101,23 +121,28 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@id/four"
-                android:text="第一个Item"
+                android:clickable="true"
+                android:onClick="infoCenter"
+                android:text="@string/info_center"
                 android:textColor="#f0f0f0"
-                android:textSize="20sp" />
+                android:textSize="15sp" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
 
             <ImageView
                 android:id="@+id/five"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/img_5" />
+                android:clickable="true"
+                android:onClick="myWrongLibs"
+                android:src="@mipmap/my_wrong_libs" />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -125,9 +150,40 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@id/five"
-                android:text="第5个Item"
+                android:clickable="true"
+                android:onClick="myWrongLibs"
+                android:text="@string/my_wrong_libs"
                 android:textColor="#f0f0f0"
-                android:textSize="20sp" />
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/six"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:onClick="setting"
+                android:src="@mipmap/setting" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/six"
+                android:clickable="true"
+                android:onClick="setting"
+                android:text="@string/setting"
+                android:textColor="#f0f0f0"
+                android:textSize="15sp" />
         </RelativeLayout>
     </LinearLayout>
 
